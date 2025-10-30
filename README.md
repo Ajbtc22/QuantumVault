@@ -26,8 +26,4 @@
 - **Testnet Ready**: Full on-chain migration demo
 - **Open Source**: MIT licensed — audit, fork, improve
 
-```bash
-python3 quantumvault.py create     # Generate wallet
-python3 quantumvault.py migrate    # Quantum-safe migration
-python3 quantumvault.py threat     # Check quantum risk QuantumVault
 QuantumVault is the world’s first open-source Bitcoin wallet that proactively protects your funds from quantum computers — with hybrid ECDSA+Dilithium signing, AI-powered threat alerts, and one-click migration to quantum-safe addresses.
