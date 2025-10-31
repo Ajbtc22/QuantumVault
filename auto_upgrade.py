@@ -1,10 +1,10 @@
-from bitcoinlib.wallets import Wallet
+from bitcoinlib.wallets import wallet_create_or_open
 from bitcoinlib.transactions import Transaction
 import requests
 
 class QuantumVaultAutoUpgrade:
     def __init__(self, wallet_name, network='testnet'):
-        self.wallet = Wallet(wallet_name, network=network)
+        self.wallet = wallet_create_or_open(wallet_name, network=network)
         self.network = network
 
     def get_taproot_address(self):
